@@ -48,6 +48,7 @@
     <None Include="Script.fsx" />
     <Compile Include="SolveMeFirst.fs" />
     <Compile Include="HelloWorld_Ntimes.fs" />
+    <Compile Include="ListReplication.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
