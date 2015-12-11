@@ -1,43 +1,29 @@
 ﻿namespace ListReplication
 
-    module RepeatList = 
+    module Solution = 
         open System
 
-        let repetition nb l = 
-                let rec repet nb l acc = 
-                        match l with
-                        | i::is ->
-                            let acc = acc@[ for j in [0..nb-1] do
-                                            yield i
-                                        ]
-                            repet nb is acc
-                        | [] -> acc
-                repet nb l []
+        /// <summary>
+        /// Function Repeat array N times
+        /// </summary>
+        /// <param name="n">nb of times</param>
+        /// <param name="arr">array to repeat</param>
+        let repeat n arr = arr |> Array.collect(fun i -> Array.create n i)
+        
+        let consoleReadInt() = Console.ReadLine() |> int
 
+        let solution() =
+            let n = consoleReadInt()
+            Array.init 10 (fun i -> consoleReadInt())
+            |> repeat n 
+            |> printfn "%A"
+            |> ignore
+
+                
     module Program =
-        open System
-        open RepeatList
-
-        let consoleRead() = try
-                                Some(Console.ReadLine() |> int)
-                            with
-                                ex-> 
-                                        printfn "Erreur Entrée clavier: %s" ex.Message
-                                        None
-
-        let readInput() =
-            let nb = consoleRead()
-            let length = consoleRead()
-            match (length, nb) with
-            | Some(ln), Some(n) when (n<=100 && n>=0) -> Some(n, List.init ln (fun index -> Console.ReadLine() |> int))
-            | _ -> None
-
+        open Solution
+        
         //[<EntryPoint>]
         let main argv = 
-            let input =  readInput()
-            match input with 
-                | Some(n, l) -> 
-                            let newList = repetition n l
-                            newList |> List.map( fun i -> printfn "%d" i) |> ignore
-                | None -> printfn "Bad Input"
+            solution()
             0
