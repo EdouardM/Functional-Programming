@@ -10,14 +10,21 @@
         /// <param name="arr">array to repeat</param>
         let repeat n arr = arr |> Array.collect(fun i -> Array.create n i)
         
-        let consoleReadInt() = Console.ReadLine() |> int
-
+        let consoleReadInt() = 
+            try
+                Console.ReadLine() |> int |> Some
+            with
+                _ -> None
+        
         let solution() =
-            let n = consoleReadInt()
+            let n = match consoleReadInt() with
+                        | Some v -> v
+                        | None   -> 0
+
             Array.init 10 (fun i -> consoleReadInt())
+            |> Array.choose id
             |> repeat n 
-            |> printfn "%A"
-            |> ignore
+            |> Array.map (fun i -> printfn "%d" i)
 
                 
     module Program =
