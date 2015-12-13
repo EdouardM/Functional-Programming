@@ -50,6 +50,7 @@
     <Compile Include="HelloWorld_Ntimes.fs" />
     <Compile Include="ListReplication.fs" />
     <Compile Include="FilterPosition.fs" />
+    <Compile Include="Evaluating_Expx.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
