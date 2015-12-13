@@ -52,6 +52,7 @@
     <Compile Include="FilterPosition.fs" />
     <Compile Include="Evaluating_Expx.fs" />
     <Compile Include="Computing_GCD.fs" />
+    <Compile Include="Pascal_Triangle.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
