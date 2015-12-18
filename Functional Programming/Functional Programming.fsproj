@@ -54,6 +54,8 @@
     <Compile Include="Computing_GCD.fs" />
     <Compile Include="Pascal_Triangle.fs" />
     <Compile Include="String_Mingling.fs" />
+    <Compile Include="Subset_Sum.fs" />
+    <Compile Include="Rotate_String.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
