@@ -58,6 +58,7 @@
     <Compile Include="Rotate_String.fs" />
     <Compile Include="Remove_Duplicate.fs" />
     <Compile Include="Huge_GCD.fs" />
+    <Compile Include="String_Permute.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
