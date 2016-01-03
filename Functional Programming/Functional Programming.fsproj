@@ -61,6 +61,7 @@
     <Compile Include="String_Permute.fs" />
     <Compile Include="Fractals_Sierpinski_Triangles.fs" />
     <Compile Include="Area_Under_Curve.fs" />
+    <Compile Include="String_Compression.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
