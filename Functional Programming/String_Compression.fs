@@ -29,7 +29,7 @@ module String_Compression =
                             char + count)
         |> String.concat ""
 
-    [<EntryPoint>]
+    //[<EntryPoint>]
     let main argv =
         Console.ReadLine()
         |> compress

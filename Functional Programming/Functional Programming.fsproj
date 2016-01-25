@@ -62,6 +62,8 @@
     <Compile Include="Fractals_Sierpinski_Triangles.fs" />
     <Compile Include="Area_Under_Curve.fs" />
     <Compile Include="String_Compression.fs" />
+    <Compile Include="CrossWord_101.fs" />
+    <Compile Include="Jumping_Bunnies.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
