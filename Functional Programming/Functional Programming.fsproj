@@ -65,6 +65,8 @@
     <Compile Include="CrossWord_101.fs" />
     <Compile Include="Jumping_Bunnies.fs" />
     <Compile Include="Missing_Numbers.fs" />
+    <Compile Include="Mango.fs" />
+    <Compile Include="String_Reduction.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
