@@ -67,6 +67,7 @@
     <Compile Include="Missing_Numbers.fs" />
     <Compile Include="Mango.fs" />
     <Compile Include="String_Reduction.fs" />
+    <Compile Include="Prefix_Compression.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
