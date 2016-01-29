@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="HelloWorld.fs" />
-    <None Include="Script.fsx" />
     <Compile Include="SolveMeFirst.fs" />
     <Compile Include="HelloWorld_Ntimes.fs" />
     <Compile Include="ListReplication.fs" />
@@ -69,6 +68,7 @@
     <Compile Include="String_Reduction.fs" />
     <Compile Include="Prefix_Compression.fs" />
     <Compile Include="Sum_Powers.fs" />
+    <Compile Include="Sequence_Colors.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
