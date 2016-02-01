@@ -69,6 +69,8 @@
     <Compile Include="Prefix_Compression.fs" />
     <Compile Include="Sum_Powers.fs" />
     <Compile Include="Sequence_Colors.fs" />
+    <Compile Include="Common_Divisors.fs" />
+    <Compile Include="Captain_Prime.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
