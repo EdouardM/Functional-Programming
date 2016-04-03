@@ -4,7 +4,7 @@
 //--------------------
 namespace FunctionalProgramming
 
-module Program = 
+module HelloWorld = 
     /// <summary>
     /// Hello World Function
     /// </summary>

@@ -4,7 +4,7 @@
 //--------------------
 namespace FunctionalProgramming
 
-module Solution =
+module FilterPosition =
     open System
 
     let consoleReadInt() = Console.ReadLine() |> int

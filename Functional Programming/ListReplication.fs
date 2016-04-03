@@ -1,6 +1,6 @@
 ﻿namespace ListReplication
 
-    module Solution = 
+    module ListReplication = 
         open System
 
         /// <summary>
@@ -26,10 +26,7 @@
             |> repeat n 
             |> Array.map (fun i -> printfn "%d" i)
 
-                
-    module Program =
-        open Solution
-        
+                    
         //[<EntryPoint>]
         let main argv = 
             solution()

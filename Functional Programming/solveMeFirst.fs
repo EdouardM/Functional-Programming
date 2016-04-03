@@ -6,7 +6,7 @@ namespace FunctionalProgramming
 
 open System
 
-module Program =
+module SolveMeFirst =
     //[<EntryPoint>]
     let main argv = 
     

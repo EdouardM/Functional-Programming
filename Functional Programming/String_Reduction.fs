@@ -7,7 +7,7 @@
 //--------------------
 namespace FunctionalProgramming.Recursion
 
-module String_Compression =
+module String_Reduction =
     open System
 
     ///Add count to char if equals last char in compr list

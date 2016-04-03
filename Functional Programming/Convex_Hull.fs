@@ -1,8 +1,8 @@
 ﻿//--------------------
 //Edouard Moureaux
-//December 2015
+//March 2016
 //
-// Problem URL: 
+// Algo URL: 
 // https://en.wikibooks.org/wiki/Algorithm_Implementation/Geometry/Convex_hull/Monotone_chain
 //--------------------
 namespace FunctionalProgramming.Recursion
